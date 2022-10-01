@@ -14,11 +14,13 @@ Használj egyéni betűtípusokat – Google Fonts-ról le kell tölteni, és CS
 - Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
 - Bekezdések: Muli, Helvetica, Arial, sans-serif
 - A footer egységesen: Muli, Helvetica, Arial, sans-serif
+* kell saját style.css
 
 A használni kívánt színeket mérd ki! Pontosan meg kell felelni a dizájn színeinek (color picker-t használd)!   
 A margin-, padding-értékeknek, betűméreteknek, sormagasságoknak stb. nem kell pixelpontosnak lennie, de szemre lőjük be, ne térjen el nagyon a dizájnon lévőtől! 
 
 A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájában, de itt is olvashatod:
+* PDF olvasóban, pl. Adobe
 
 ## Start Bootstrap szöveg (a bal felső sarokban): 
 
@@ -33,14 +35,16 @@ A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájáb
    - A Contact a We love new friends! részhez
 - Ez a gördüléses animáció 300ms időtartamú legyen, ez az az idő, amely alatt felülre kerül az adott tartalmi rész.
 - A felső menü fixen, mindig látható felül. Ha nem az oldal tetején vagyunk, akkor legyen a menü háttérszíne fehér, a betűk szürkék (desktop-menu.pdf szerint).
+*navbar bs-ről, átlátszó háttér
 
 ## Gombok:
 
-- Lekerekítettek
+- Lekerekítettek *bs-putline CSS-be legömbölyíteni
 - Ha föléjük visszük a kurzort, sárga lesz a háttérszínük és a border színe is (#fdcc52). 
 - Ez 300ms alatt történjen meg, ne rögtön (natív CSS-sel oldd meg, ha tudod).
 
 ## Felső rózsaszín-lila rész:
+*col-12 col-lg-6
 
 - Ez egy linear gradient plusz egy kép repeatelve
 - A kép a bg-pattern.png
@@ -75,6 +79,11 @@ A social-ikonoknál:
 - Sima linkek. Ha föléjük visszük a kurzort, sárga lesz a betűk színe (#fdcc52)
 - Nem új oldalra vezetnek, hanem mindegyik 1-1 külön modalt nyit
 - Tehát 3 modal lesz: egy Terms, egy Privacy és egy FAQ
-- Elég, ha ezeknek a modaloknak a title-je különbözik, a body lehet egy egyszerű lorem ipsum. A modal nyitását jQuery-vel oldjuk meg    
+- Elég, ha ezeknek a modaloknak a title-je különbözik, a body lehet egy egyszerű lorem ipsum. A modal nyitását jQuery-vel oldjuk meg * nem kell, meg kell nézni a BS doksit hogy csinálja a modalt  
 
 Fájlok: [bootstrap-sitebuilding-project.zip](https://s3.amazonaws.com/thinkific/file_uploads/219412/attachments/8a4/22d/733/bootstrap-sitebuilding-project.zip)
+
+*háttér: saját CSS, átlátszó háttérkép, mögötte színátmenet
+*hover: saját css
+*row col közötti fehér csík eltüntetése CSS-el.
+
