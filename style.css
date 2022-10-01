@@ -10,7 +10,15 @@
     font-family: Muli;
     src: url('./fonts/Muli-Regular.ttf');
 }
+body {
+    background-image: url('./img/bg-pattern.png'), linear-gradient(0.25turn,rgb(218,36,49), rgb(125,67,151));
+}
 
+/* navbar settings */
+
+
+
+/* footer settings */
 footer {
     font-family: Muli, Helvetica, Arial, sans-serif;
     font-weight: 200;
