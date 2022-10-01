@@ -11,8 +11,23 @@
     src: url('./fonts/Muli-Regular.ttf');
 }
 
+footer {
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: .8em;
+}
+footer a {
+    font-family: Muli, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    color: #6c757d;
+    text-decoration-color: transparent;
+}
+footer a:hover {
+    color: #fdcc52;
+}
+
+
 /* fallback fonts
 font-family: Catamaran, Helvetica, Arial, sans-serif;
 font-family: Lato, Helvetica, Arial, sans-serif;
-font-family: Muli, Helvetica, Arial, sans-serif;
 */
