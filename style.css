@@ -15,7 +15,39 @@ body {
 }
 
 /* navbar settings */
+.navbar-brand, .nav-link {
+    color: #fdcc52;
+}
+.nav-link {
+    font-size: .8em;
+}
+.navbar-brand:hover, .nav-link:hover, .navbar-toggler, .navbar-text {
+    color: white;
+}
+.navbar-toggler {
+    font-size: small;
+    color: #fdcc52;
+    border-color: #fdcc52;
+    border-width: 2px;
+}
+.navbar-toggler:hover {
+    font-size: small;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+}
+.navbar-text {
+    font-size: small;
+    color: #fdcc52;
+}
+.navbar-text:hover {
+    color: white;
+}
 
+
+.discoverAllAbout {
+    background-color: rgb(253,202,77);
+}
 
 
 /* footer settings */

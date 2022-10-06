@@ -12,33 +12,133 @@
 
 <body>
     <nav class="navbar navbar-expand-lg bg-transparent">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Start Bootstrap</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            Menu <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
+        <div class="container-lg">
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-text">Menu &#9776</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">DOWNLOAD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-    
-    
-    <section class="container newAgeApp"></section>
-    <section class="container discoverAllAbout"></section>
-    <section class="container unlimitedFeatures"></section>
-    <section class="container stopWaiting"></section>
-    <section class="container weLoveNewFriends"></section>
+    </nav>
+
+    <section class="container newAgeApp text-center text-white">
+        <div class="row col-10 mx-auto justify-content-center mt-4">
+            <h3 class="fs-4 fw-light">New Age is an app landing page that will help you beautifully showcase your new
+                mobile app, or anything
+                else!
+            </h3>
+        </div>
+        <div class="row justify-content-center my-4">
+            <div class="d-grid d-block col-6">
+                <button type="button"
+                    class="btn-yellow btn btn-outline-light btn-block rounded-5 text-uppercase fs-6">Start now for
+                    free!</button>
+            </div>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="d-grid d-block col-8 position-relative">
+                <img src="./img/phone.png" class=" img-fluid mx-auto d-block" alt="phone">
+                <div class="d-grid d-block col-10 position-absolute top-50 start-50 translate-middle">
+                    <img src="./img/demo-screen-1.jpg" class=" img-fluid mx-auto d-block" alt="phone">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid discoverAllAbout text-center">
+        <div class="row pt-5 col-8 mx-auto">
+            <h1 class="fs-1 fw-light">
+                Discover what all the buzz is about!
+            </h1>
+        </div>
+        <div class="row">
+            <h5 class="fs-6 fw-light">
+                Our app is available on any mobile device! Download now to get started!
+            </h5>
+        </div>
+        <div class="row pb-5">
+            <div class="d-flex justify-content-center flex-column flex-lg-row col-8 col-lg-8 mx-auto gap-2">
+                <div class="col-5 mx-auto">
+                    <a href="https://play.google.com/">
+                        <img src="./img/google-play-badge.svg" class="col-12" alt="google play">
+                    </a>
+                </div>
+                <div class="col-5 mx-auto">
+                    <a href="https://www.apple.com/store">
+                        <img src="./img/app-store-badge.svg" class="col-12" alt="apple store">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid unlimitedFeatures text-center bg-light">
+        <div class="row pt-5 col-8 mx-auto">
+            <h1 class="fs-1 fw-light">
+                Unlimited Features, Unlimited Fun
+            </h1>
+        </div>
+        <div class="row">
+            <h5 class="fs-6 fw-light">
+                Check out what you can do with this app theme!
+            </h5>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="d-grid d-block col-8 position-relative">
+                <img src="./img/phone.png" class=" img-fluid mx-auto d-block" alt="phone">
+                <div class="d-grid d-block col-10 position-absolute top-50 start-50 translate-middle">
+                    <img src="./img/demo-screen-1.jpg" class=" img-fluid mx-auto d-block" alt="phone">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-8 p-5">
+                <div class="icon col-2 mx-auto"><img src="./fonts/Phone-icon.svg" width="100%" color="red" alt="phone"></div>
+                <div class="fs-3">Device Mockups</div>
+                <div class="fs-6 fw-light">Ready to use HTML/CSS device
+                    mockups, no Photoshop required!</div>
+            </div>
+            <div class="col-8 p-5">
+                <div class="icon col-3 mx-auto"><img src="./fonts/Noun_Project_camera_icon_308298_cc.svg" width="100%" alt="camera"></div>
+                <div class="fs-3">Flexible Use</div>
+                <div class="fs-6 fw-light">Put an image, video, animation, or
+                    anything else in the screen!</div>
+            </div>
+            <div class="col-8 py-5 px-4">
+                <div class="icon col-3 mx-auto"><img src="./fonts/Toicon-icon-lines-and-angles-give.svg" width="100%" alt="gift"></div>
+                <div class="fs-3">Free to Use</div>
+                <div class="fs-6 fw-light">As always, this theme is free to
+                    download and use for any purpose!</div>
+            </div>
+            <div class="col-8 p-5">
+                <div class="icon col-3 mx-auto"><img src="./fonts/Ic_lock_open_48px.svg" width="100%" alt="lock open"></div>
+                <div class="fs-3">Open Source</div>
+                <div class="fs-6 fw-light">Since this theme is MIT licensed, you
+                    can use it commercially!</div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="container-fluid stopWaiting"></section>
+
+    <section class="container-fluid weLoveNewFriends"></section>
 
     <footer class="bg-dark text-muted text-center py-4">
         <div>
