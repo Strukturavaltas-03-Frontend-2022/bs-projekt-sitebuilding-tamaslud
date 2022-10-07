@@ -10,6 +10,9 @@
     font-family: Muli;
     src: url('./fonts/Muli-Regular.ttf');
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-image: url('./img/bg-pattern.png'), linear-gradient(0.25turn,rgb(218,36,49), rgb(125,67,151));
 }
