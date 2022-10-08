@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Catamararan;
+    font-family: Catamaran;
     src: url('./fonts/Catamaran-Regular.ttf');
 }
 @font-face {
@@ -15,21 +15,25 @@ html {
 }
 body {
     background-image: url('./img/bg-pattern.png'), linear-gradient(0.25turn,rgb(218,36,49), rgb(125,67,151));
+    font-family: Muli, Helvetica, Arial, sans-serif;
+}
+.ff-catamaran {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 
 /* navbar settings */
-.navbar-brand, .nav-link {
-    color: #fdcc52;
+.navbar-brand {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 .nav-link {
     font-size: .8em;
+    font-family: Lato, Helvetica, Arial, sans-serif;
 }
 .navbar-brand:hover, .nav-link:hover, .navbar-toggler, .navbar-text {
     color: white;
 }
 .navbar-toggler {
     font-size: small;
-    color: #fdcc52;
     border-color: #fdcc52;
     border-width: 2px;
 }
@@ -39,21 +43,30 @@ body {
     border-color: white;
     border-width: 2px;
 }
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 .navbar-text {
     font-size: small;
-    color: #fdcc52;
 }
 .navbar-text:hover {
     color: white;
+
 }
 .bg-yellow {
     background-color: rgb(253,202,77);
+}
+.btn-yellow {
+    color: white;
+    border-color: white;
+    --bs-btn-hover-color: var(--bs-white);
 }
 .text-yellow {
     color: rgb(253,202,77);
 }
 .text-yellow:hover {
     color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 .socmedia {
     text-decoration: none;
