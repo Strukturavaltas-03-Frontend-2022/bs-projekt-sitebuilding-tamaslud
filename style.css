@@ -46,14 +46,18 @@ body {
 .navbar-text:hover {
     color: white;
 }
-
 .bg-yellow {
     background-color: rgb(253,202,77);
+}
+.text-yellow {
+    color: rgb(253,202,77);
+}
+.text-yellow:hover {
+    color: white;
 }
 .socmedia {
     text-decoration: none;
 }
-
 /* footer settings */
 footer {
     font-family: Muli, Helvetica, Arial, sans-serif;
