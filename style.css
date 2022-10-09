@@ -82,6 +82,10 @@ body {
 }
 .socmedia {
     text-decoration: none;
+    opacity: .9;
+}
+.socmedia:hover {
+    opacity: 1;
 }
 /* footer settings */
 footer {
