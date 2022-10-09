@@ -39,7 +39,7 @@ A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájáb
 
 ## Gombok:
 
-- Lekerekítettek *bs-putline CSS-be legömbölyíteni
+- Lekerekítettek *bs-outline CSS-be legömbölyíteni
 - Ha föléjük visszük a kurzort, sárga lesz a háttérszínük és a border színe is (#fdcc52). 
 - Ez 300ms alatt történjen meg, ne rögtön (natív CSS-sel oldd meg, ha tudod).
 
